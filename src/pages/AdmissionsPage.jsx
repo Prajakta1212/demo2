@@ -3,9 +3,9 @@ import Header from '../components/Header/Header'
 import Footer from '../components/Footer/Footer'
 const Admission = () => {
   return(
-    <div>
+    <div className="demo2">
       <Header/>
-      <h1 id="demo1"> Admission at Vivekanad College </h1>
+      <h1> Admission at Vivekanad College </h1>
 
       <p> Welcome to the Admission page of Vivvekanand College! We are delighted
         you're considering joining our vibrant academic community. our admission 

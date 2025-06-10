@@ -4,9 +4,9 @@ import './mystyle.css'
 import Footer from '../components/Footer/Footer'
 const About = () => {
   return(
-    <div>
+    <div className="demo">
       <Header/>
-      <h1 id="demo"> About Vivekanand College</h1>
+      <h1> About Vivekanand College</h1>
 
       <p> Vivekanand College stands as beacon of knowledge and intigrity,
         committed to delivering transformative education since its inception

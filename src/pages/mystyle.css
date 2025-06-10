@@ -1,8 +1,31 @@
-.about-container{
+.demo {
     padding: 20px;
 }
 
-.about-container h1{
+.demo h1{
     text-align: center;
-    color;
+    color:blue;
+}
+
+.demo p{
+    text-align: center;
+    font-size: 18px;
+    margin: 20px;
+}
+
+.demo h2{
+    margin-top:40px;
+    margin-bottom: 20px;
+    color:lightseagreen;
+}
+
+.demo ul{
+    list-style: disc;
+    padding: 0;
+    margin: 40px;
+
+}
+.demo li{
+    margin-bottom: 10px;
+    font-size: 18px;
 }
