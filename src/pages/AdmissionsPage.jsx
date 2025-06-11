@@ -1,11 +1,14 @@
 import React from 'react'
 import Header from '../components/Header/Header'
 import Footer from '../components/Footer/Footer'
+import "./mystyle.css"
 const Admission = () => {
   return(
-    <div className="demo2">
+    <div id="home2">
       <Header/>
-      <h1> Admission at Vivekanad College </h1>
+      <div id="home3">
+      
+      <h1 id="about"> Admission at Vivekanad College </h1>
 
       <p> Welcome to the Admission page of Vivvekanand College! We are delighted
         you're considering joining our vibrant academic community. our admission 
@@ -19,8 +22,8 @@ const Admission = () => {
       </p>
 
       <h2><b>Eligibility Criteria for Undergraduate programs</b> </h2>
-        <table border="2">
-				<thead> 
+        <table border="2" id="add">
+				<thead id="thead"> 
 					<tr>
 						<th><b>Program</b></th>
 						<th><b>Minimum qualification</b></th>
@@ -63,7 +66,9 @@ const Admission = () => {
 
       </ol>
 
-      <p> For detailed information on postgraduate program admissions, specific program syllabi, and fee structures, please visit our Course page or contact us directly.</p>
+      <p> For detailed information on postgraduate program admissions, specific program syllabi, and fee structures, please visit our Course page or contact us directly.
+      <a href="/CoursesPage"><u>Courses page</u></a> or <a href="/ContactPage"><u>Contact us</u></a> directly</p>
+      </div>
       <Footer/>
     </div>
   )

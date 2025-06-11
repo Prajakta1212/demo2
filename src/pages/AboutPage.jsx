@@ -4,9 +4,11 @@ import './mystyle.css'
 import Footer from '../components/Footer/Footer'
 const About = () => {
   return(
-    <div className="demo">
+    <div id="home2">
       <Header/>
-      <h1> About Vivekanand College</h1>
+      <div id="home3">
+      
+      <h1 id="about" > About Vivekanand College</h1>
 
       <p> Vivekanand College stands as beacon of knowledge and intigrity,
         committed to delivering transformative education since its inception
@@ -20,7 +22,7 @@ const About = () => {
         perspective, and a strong sense of social responsibility. We aim to nurture
         individuals who are not successful in their careers but also contibuting members of society.</p>
 
-        <h2><b> Our Mission</b></h2>
+        <h2 ><b> Our Mission</b></h2>
         <hr></hr>
         <ul>
           <li> To provide high-quality, accessible education across various disciplines.</li>
@@ -38,6 +40,7 @@ const About = () => {
           <p> [Briefly describe the college's history-e.g., how it started, key milestones, 
             growth over the years, famous alumni if any]. Our journey began with a vision to make
             quality education available to all, and we continue that legacy today.</p>
+         </div>   
         <Footer/>
 
     </div>

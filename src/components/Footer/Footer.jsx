@@ -3,7 +3,7 @@ import './Footer.css'
 const Footer= () => {
   return(
     
-      <div id="foot">
+      <div id="demo">
         <p>© 2025 Vivekanand College. All rights reserved.</p>
       </div>
     

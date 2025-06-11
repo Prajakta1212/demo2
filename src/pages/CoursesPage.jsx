@@ -1,10 +1,12 @@
 import React from 'react'
+import './mystyle.css'
 import Header from '../components/Header/Header'
 import Footer from '../components/Footer/Footer'
 const Courses = () => {
   return(
-    <div>
+    <div id="home2">
       <Header/>
+      <div id="home3">
       <h1> Our Academic Programs</h1>
       <p> Vivekanand College offers a comprehensive range of undergraduate and postgraduate
         programs to designed to equip students with knowledge and skills demanded by today's 
@@ -13,11 +15,17 @@ const Courses = () => {
       </p>
 
       <h2> Discover Campus Life</h2>
-      <video> 
-        <source src="college-tour-FAmcnyfF.mp4" type="video/mp4"></source>
-      </video>
+      <hr></hr>
+      <div>
+        <video controls width="100%" height="auto">
+          <source src="./Videos/vck.mp4" type="video/mp4"/>
+        </video>
+
+      </div>
+      
 
       <h2> Undergraduate Programs (UG)</h2>
+      <hr></hr>
       <ul> 
         <li> Bachelor of Science(BSc)</li> 
         <ul>
@@ -42,7 +50,7 @@ const Courses = () => {
           </ul>
         </ul>
 
-        <h1><b> Postgraduate Programs (PG)</b></h1>
+        <h2><b> Postgraduate Programs (PG)</b></h2>
         <hr></hr>
 
         <ul>
@@ -63,7 +71,7 @@ const Courses = () => {
         <hr></hr>
 
 
-        <table border="2">
+        <table border="2" id="courses">
 				<thead> 
 					<tr>
 						<th>Program Type</th>
@@ -110,10 +118,10 @@ const Courses = () => {
         career enhancement.
       </p>
 
-      <p text-align="center"> Have questiens about a specific Courses?</p>
-
-      <button type="button"> Inquire about Courses</button>
+      <p id="home1"> Have questiens about a specific Courses?</p>
+      <a href="ContactPage" id="home"> Inquire about Courses </a>
       <Footer/>
+      </div>
 
   
     </div>
