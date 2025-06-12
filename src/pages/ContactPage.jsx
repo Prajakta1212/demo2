@@ -36,7 +36,6 @@ const Contact = () => {
 
             <h2>Find Us on Google Maps</h2>
             <hr></hr>
-            <hr></hr>
             <p>[You can embed a Google Map here later using an inframe or a React map library.]</p>
             <a href="https://maps.google.com/?q=Vivekanand+College"><u> view on Google Map</u></a>
 
