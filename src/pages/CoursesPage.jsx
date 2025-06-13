@@ -6,7 +6,7 @@ const Courses = () => {
   return(
     <div id="home2">
       <Header/>
-      <div id="home3">
+      <div className='page-container'>
       <h1> Our Academic Programs</h1>
       <p> Vivekanand College offers a comprehensive range of undergraduate and postgraduate
         programs to designed to equip students with knowledge and skills demanded by today's 
@@ -120,9 +120,9 @@ const Courses = () => {
 
       <p id="home1"> Have questiens about a specific Courses?</p>
       <a href="ContactPage" id="home"> Inquire about Courses </a>
-      <Footer/>
+      
       </div>
-
+      <Footer/>
   
     </div>
   )

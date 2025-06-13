@@ -6,15 +6,15 @@ const Home = () => {
      return(
        <div id="home2">
           <Header/>
-               <div id="home3">
-                   <div id="image">
-                      <img src="/Images/home.jpeg" alt="Vivekanand College Campus" height={350} width={950} />
-                      <div id="home5"> 
+               <div className='page-container'>
+                   <div className='college-image'>
+                      <img src="/Images/home.jpeg" alt="Vivekanand College Campus"  className="college-image"height={350} width={950} />
+                      <div className='front-image'> 
                 
-                            <h1>Welcome to Vivekanand College!</h1>
+                            <h1><b>Welcome to Vivekanand College!</b></h1>
                             <p>Your journey to excellence start here</p>
-                            <a href="AdmissionPage">"<h3>Apply Now!</h3></a>
-                        </div>
+                            <a href="AdmissionPage" id="main1"><h6>Apply Now!</h6></a>
+                      </div> 
                       
                     </div>   
 
@@ -34,8 +34,9 @@ const Home = () => {
                       <h2> Campus Life and Facilities</h2>
                       <hr></hr>
                       <div id="image2">
-                       <img src="./Images/1.jpeg" className='page1' alt="students studying in library" />
-                       <img src="./Images/2.jpeg" className='page2'/>
+                       <img src="./Images/1.png "className='page1'/>
+                       <img src="./Images/2.png" className='page2'/>
+                       
                       </div>
                           <p id="center"> Explore our vibrant campus and state-of-the-art facilities designed to enhance your learning</p>
 

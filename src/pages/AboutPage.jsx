@@ -6,7 +6,7 @@ const About = () => {
   return(
     <div id="home2">
       <Header/>
-      <div id="home3">
+      <div className='page-container'>
       
       <h1 id="about" > About Vivekanand College</h1>
 
