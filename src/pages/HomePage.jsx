@@ -8,7 +8,7 @@ const Home = () => {
           <Header/>
                <div className='page-container'>
                    <div className='college-image'>
-                      <img src="/Images/home.jpeg" alt="Vivekanand College Campus"  className="college-image"height={350} width={950} />
+                      <img src="/Images/home.jpeg" alt="Vivekanand College Campus"  className="college-image1"height={350} width={950} />
                       <div className='front-image'> 
                 
                             <h1><b>Welcome to Vivekanand College!</b></h1>
